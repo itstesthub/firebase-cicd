@@ -10,7 +10,6 @@ install:
 
 script:
   - npm build
-  - npm run test -- --no-watch --no-progress --browsers=ChromeHeadless
 
 
 after_success:
